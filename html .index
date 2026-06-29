@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Resume</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f2f2f2;
+            margin:0;
+            padding:0;
+        }
+
+        .container{
+            width:60%;
+            margin:40px auto;
+            background:#fff;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h1{
+            text-align:center;
+            color:#0d47a1;
+        }
+
+        h2{
+            color:#1565c0;
+            border-bottom:2px solid #1565c0;
+            padding-bottom:5px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+
+        table, th, td{
+            border:1px solid #000;
+        }
+
+        th{
+            background:#1565c0;
+            color:white;
+            padding:10px;
+        }
+
+        td{
+            padding:10px;
+        }
+
+        p{
+            font-size:18px;
+        }
+
+        strong{
+            color:#1565c0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Student Resume</h1>
+
+    <h2>Personal Information</h2>
+
+    <p><strong>Name:</strong> S. Gayathri</p>
+    <p><strong>Mobile Number:</strong> 8500325244</p>
+    <p><strong>Address:</strong> Nagari</p>
+    <p><strong>Email:</strong> sgayathrisvpcet@gmail.com</p>
+
+    <h2>Educational Qualification</h2>
+
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Percentage</th>
+        </tr>
+
+        <tr>
+            <td>SSC</td>
+            <td>ZPP High School</td>
+            <td>70%</td>
+        </tr>
+
+        <tr>
+            <td>Intermediate</td>
+            <td>PCN College, Nagari</td>
+            <td>80%</td>
+        </tr>
+
+        <tr>
+            <td>B.Tech</td>
+            <td>Sri Venkatesa Perumal College</td>
+            <td>80%</td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>
